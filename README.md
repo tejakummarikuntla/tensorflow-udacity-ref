@@ -6,8 +6,6 @@ To do machine learning, you don't really need to understand these details. But f
 The training process starts with a forward pass, where the input data is fed to the neural network (see Fig.1). Then the model applies its internal math on the input and internal variables to predict an answer ("Model Predicts a Value" in Fig. 1).
 
 In our example, the input was the degrees in Celsius, and the model predicted the corresponding degrees in Fahrenheit.
-```Changes Made Testing```
-
 
 Once a value is predicted, the difference between that predicted value and the correct value is calculated. This difference is called the loss, and it's a measure of how well the model performed the mapping task. The value of the loss is calculated using a loss function, which we specified with the loss parameter when calling `model.compile().`
 
